@@ -6,9 +6,8 @@ def find_number_of_columns(data):
     Return:
         int: Number of columns.
     """
-    import csv
-    f=open('data.csv')
-    data=csv.reader(f)
+    
+    
     l1=[]
     for columns in data:
         l1.append(columns)
@@ -18,3 +17,6 @@ def find_number_of_columns(data):
 
 
 # Read the csv file
+import csv
+f=open('data.csv')
+data=csv.reader(f)
