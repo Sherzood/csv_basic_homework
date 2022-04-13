@@ -8,11 +8,12 @@ def find_number_of_columns(data):
     """
     
     
-    l1=[]
-    for columns in data:
-        l1.append(columns)
 
-    return len(l1)
+    for row in data:
+        columns=len(row)
+    
+
+    return columns
 
 
 
